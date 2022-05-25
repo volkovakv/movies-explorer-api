@@ -42,7 +42,7 @@ module.exports.deleteMovie = (req, res, next) => {
           .then((deletedMovie) => res.send(deletedMovie))
           .catch(next);
       }
-      throw new DeleteAccessError('В доступе отказано');
+      throw new DeleteAccessError('У вас нет доступа');
     })
     .catch(next);
 };
