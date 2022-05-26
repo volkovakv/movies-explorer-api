@@ -39,8 +39,7 @@ module.exports.deleteMovie = (req, res, next) => {
     .then((movie) => {
       if (movie.owner.toString() === userId) {
         return Movie.findByIdAndRemove(movieId)
-          .then((deletedMovie) => res.send(deletedMovie))
-          .catch(next);
+          .then((deletedMovie) => res.send(deletedMovie));
       }
       throw new DeleteAccessError('У вас нет доступа');
     })

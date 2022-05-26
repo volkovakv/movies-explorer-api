@@ -6,3 +6,4 @@
 
 ## Ссылки:
 - Backend: diplom.backend.volkovakv.nomoredomains.work
+- Frontend: diplom.frontend.volkovakv.nomoredomains.work 
