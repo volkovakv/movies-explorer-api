@@ -1,6 +1,6 @@
 const allowedCors = [
-  'http://diplom.backend.volkovakv.nomoredomains.work',
-  'https://diplom.backend.volkovakv.nomoredomains.work',
+  'http://diplom.frontend.volkovakv.nomoredomains.work',
+  'https://diplom.frontend.volkovakv.nomoredomains.work',
   'http://localhost:3000',
 ];
 
